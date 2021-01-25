@@ -1,11 +1,18 @@
 class Formatter {
   //add static methods here
+<<<<<<< HEAD
 
   static capitalize( string ) {
     return string.charAt( 0 ).toUpperCase() + string.slice( 1 )
   }
 
   static sanitize( string ) {
+=======
+}
+
+
+static sanitize( string ) {
+>>>>>>> b8c50296c356540039bef8e4903039685d0f6b9d
     return string.replace( /[^A-Za-z0-9 '-]/g, '' )
   }
 
@@ -25,6 +32,13 @@ class Formatter {
       }
 
     }
+<<<<<<< HEAD
     return result.join( " " );
   }
 }
+=======
+   
+  }
+}
+
+>>>>>>> b8c50296c356540039bef8e4903039685d0f6b9d
